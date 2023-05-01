@@ -12,6 +12,11 @@ function App() {
       text: "hi",
       priority: 0,
     },
+    {
+      text: "new",
+      priority: 0,
+    },
+
   ]);
   const [inputValue, setInputValue] = useState("");
   function handleInputChange(event) {
